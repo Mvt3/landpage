@@ -81,11 +81,14 @@ a {
     width: 580px;
     max-width: 100%;
     height: auto;
+    
 }
 
 .images{
     display: flex;
     flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
 }
 
 .containter-white{
@@ -164,6 +167,7 @@ footer{
     justify-content: center;
     background-color: #1f2937;
     padding: 20px;
+    flex: 1;
 }
 
 .copyright{
